@@ -109,14 +109,14 @@ nav.scrolled {
   min-height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: end;
-  padding: 0 5vw 6rem;
+  align-items: center;
+  padding: 7rem 5vw 5rem;
   position: relative;
   gap: 4rem;
 }
 
 .hero-left {
-  padding-top: 12rem;
+  padding-top: 0;
 }
 
 .hero-eyebrow {
@@ -238,7 +238,7 @@ nav.scrolled {
   justify-content: flex-end;
   padding-bottom: 0.5rem;
   gap: 1.5rem;
-  align-self: end;
+  align-self: center;
 }
 
 .hero-stat {
@@ -739,7 +739,8 @@ footer {
 @media (max-width: 900px) {
   #hero {
     grid-template-columns: 1fr;
-    padding-top: 8rem;
+    align-items: start;
+    padding-top: 7rem;
   }
 
   .hero-right {
